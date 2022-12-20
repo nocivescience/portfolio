@@ -1,6 +1,8 @@
 import { Navbar } from "./components/Navbar";
+import { Root } from "./components/Root";
 import { Home } from "./components/Home";
 import { FormData } from "./components/Form";
+import { Portfolio } from "./components/Portfolio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -8,11 +10,12 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route element={<Home />} />
+          <Route path="/" element={<Root />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/form" element={<FormData />} />
+          <Route path="/port" element={<Portfolio />} />
         </Routes>
       </BrowserRouter>
-      <Home />
-      <FormData name="Ricardo" lastname="fuentes" />
     </>
   );
 }
