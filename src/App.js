@@ -4,9 +4,11 @@ import { Home } from "./components/Home";
 import { FormData } from "./components/Form";
 import { Portfolio } from "./components/Portfolio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Background } from "./components/Background";
 function App() {
   return (
     <>
+    <Background/>
       <BrowserRouter>
         <Navbar />
         <Routes>

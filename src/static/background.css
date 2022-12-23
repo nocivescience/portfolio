@@ -1,0 +1,5 @@
+.cuerpo{
+    position: fixed;
+    opacity: .08;
+    z-index:-2
+}
