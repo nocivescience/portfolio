@@ -18,17 +18,8 @@ export const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink className='nav-link' to='/home'>Portafolio</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className='nav-link' to='/form'>Contacto</NavLink>
-              </li>
               <li className="nav-item dropdown">
-              <NavLink className='nav-link' to='/port'>Juegos</NavLink>
-              </li>
-              <li className="nav-item dropdown">
-              <NavLink className='nav-link' to='/port'>Juegos Educativos</NavLink>
+              <NavLink className='nav-link' to='/port'>Porfolio</NavLink>
               </li>
             </ul>
             <form className="d-flex">
